@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width">
+<title>Atal Atmar Portfolio</title>
+
+<head>
+	<title></title>
+</head>
+
+<body>
+	<header class="header">
+
+		<div class="header__container">
+			<div class="wrapper">
+				<div class="header__logo">
+					<div class="header__logo-img-container">
+						<img class="header__logo-img" src="img/profile-photo.jpg" alt="JhonnyDupa">
+					</div>
+					<div class="header__logo-user">
+						<h3 class="header__name">Atal</h3>
+						<h4 class="header__pos">Web-Developer</h4>
+					</div>
+
+				</div>
+			</div>
+			<nav class="header__nav" id="header__nav">
+
+
+				<ul class="header__list" id="header__list">
+					<li class="header__list-item"><a href="#works" class="header__list-item-link">Works</a></li>
+					<li class="header__list-item"><a href="#" class="header__list-item-link">Blog</a></li>
+					<li class="header__list-item"><a href="#" class="header__list-item-link">Contact</a></li>
+				</ul>
+				
+				<div class="header__nav-close" onclick="closeBurger()">
+					<span class="header__nav-close-line"></span>
+					<span class="header__nav-close-line"></span>
+				</div>
+			</nav>
+			<div class="header__burger burger" onclick="burger()">
+				<span class="burger__line burger__line_first">
+
+				</span>
+				<span class="burger__line burger__line_second">
+
+				</span>
+				<span class="burger__line burger__line_third">
+
+				</span>
+			</div>
+
+
+		</div>
+	</header>
+	<div class="under__header" id = "under__header">
+	<main class="main" id ="main">
+		<div class="wrapper">
+			<section class="introduce">
+				<div class="introduce__info">
+					<div class="introduce__info-text">
+						<h1 class="introduce__title">
+							Hi, I am John, Creative Technologist
+						</h1>
+						<h2 class="introduce__desc">
+							Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+							duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+						</h2>
+						<div class="button__container">
+							<button class="introduce__btn">
+								Download Resume
+							</button>
+						</div>
+
+					</div>
+					<div class="introduce__img-container">
+						<img src="img/profile-photo.jpg" alt="Jhonny Dupa" class="introduce__img">
+					</div>
+
+				</div>
+			</section>
+		</div>
+		<section class="posts">
+			<div class="wrapper__posts">
+				<div class="wrapper">
+
+					<div class="posts__header">
+						<h2 class="posts__title">
+							Recent posts
+						</h2>
+						<a href="#" class="posts__all">
+							View all
+						</a>
+					</div>
+					<div class="posts__container">
+						<div class="post post1">
+							<h2 class="post__name">
+								Making a design system from scratch
+							</h2>
+							<span class="post__date">12 Feb 2020 | Design, Pattern</span>
+							<h3 class="post__desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+								Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+							</h3>
+						</div>
+
+						<div class="post post2">
+							<h2 class="post__name">
+								Creating pixel perfect icons in Figma
+							</h2>
+							<span class="post__date">12 Feb 2020 | Figma, Icon Design</span>
+							<h3 class="post__desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+								Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+							</h3>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<section class="works" id="works">
+			<div class="wrapper">
+
+				<h2 class="works__title">
+					Featured works
+				</h2>
+
+				<div class="work work1">
+					<div class="work__img-container">
+						<img src="img/first-work.jpg" alt="first-work" class="work__img">
+					</div>
+					<div class="work__info">
+						<h3 class="work__title">
+							Designing Dashboards
+						</h3>
+						<span class="work__date">
+							2020
+						</span>
+						<span class="work__name">
+							Dashboard
+						</span>
+						<h5 class="work__desk">
+							Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+							duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+						</h5>
+					</div>
+				</div>
+				<hr class="work__hr">
+				<div class="work work2">
+					<div class="work__img-container">
+						<img src="img/second-work.jpg" alt="second-work" class="work__img">
+					</div>
+					<div class="work__info">
+						<h3 class="work__title">
+							Vibrant Portraits of 2020 </h3>
+						<span class="work__date">
+							2018
+						</span>
+						<span class="work__name">
+							Illustration
+						</span>
+						<h5 class="work__desk">
+							Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+							duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+						</h5>
+
+					</div>
+
+				</div>
+				<hr class="work__hr">
+				<div class="work work3">
+					<div class="work__img-container">
+						<img src="img/third-work.jpg" alt="third-work" class="work__img">
+
+					</div>
+					<div class="work__info">
+						<h3 class="work__title">
+							36 Days of Malayalam type
+						</h3>
+						<span class="work__date">
+							2018
+						</span>
+						<span class="work__name">
+							Typography
+						</span>
+						<h5 class="work__desk">
+							Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+							duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+						</h5>
+					</div>
+				</div>
+				<hr class="work__hr">
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="footer__items">
+				<img src="img/fb.png" alt="Facebook icon" class="footer__img fb">
+
+				<img src="img/insta.png" alt="Instagramm icon" class="footer__img insta">
+
+				<img src="img/twitter.png" alt="Twiiter icon" class="footer__img twitter">
+
+				<img src="img/Linkedin.png" alt="Linkedin Icon" class="footer__img linkedin">
+				<p class="footer__rights">Copyright ©2020 All rights reserved </p>
+			</div>
+		</div>
+	</footer>
+</div>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
